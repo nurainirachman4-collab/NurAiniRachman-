@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#0d46f2",
+                        "background-light": "#f5f6f8",
+                        "background-dark": "#101422",
+                    },
+                    fontFamily: {
+                        "display": ["Plus Jakarta Sans", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.5rem",
+                        "lg": "1rem",
+                        "xl": "1.5rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100">
+<div class="relative flex min-h-screen flex-col">
+<header class="sticky top-0 z-50 w-full border-b border-slate-200 dark:border-slate-800 bg-white/80 dark:bg-background-dark/80 backdrop-blur-md">
+<div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+<div class="flex items-center gap-2">
+<div class="text-primary">
+<svg class="size-8" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-xl font-bold tracking-tight">AiniWorks</span>
+</div>
+<nav class="hidden md:flex items-center gap-8">
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#beranda">Beranda</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#tentang">Tentang Kami</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#layanan">Layanan</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#kontak">Kontak</a>
+</nav>
+<div class="flex items-center gap-4">
+<a class="hidden sm:inline-flex items-center justify-center rounded-xl bg-primary px-5 py-2.5 text-sm font-bold text-white transition-all hover:bg-primary/90" href="#kontak">
+                        Mulai Sekarang
+                    </a>
+</div>
+</div>
+</header>
+<main class="flex-1">
+<section class="relative overflow-hidden py-20 lg:py-32" id="beranda">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid gap-12 lg:grid-cols-2 lg:items-center">
+<div class="flex flex-col gap-8">
+<div class="space-y-4">
+<span class="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-bold text-primary">Inovasi Digital Terpercaya</span>
+<h1 class="text-5xl font-extrabold leading-tight tracking-tight lg:text-7xl">
+                                    Membangun Masa Depan <span class="text-primary">Digital</span> Anda
+                                </h1>
+<p class="text-lg text-slate-600 dark:text-slate-400">
+                                    Solusi teknologi terdepan untuk transformasi bisnis yang inovatif dan berkelanjutan di era digital yang dinamis.
+                                </p>
+</div>
+<div class="flex flex-wrap gap-4">
+<button class="rounded-xl bg-primary px-8 py-4 text-base font-bold text-white shadow-lg shadow-primary/20 transition-all hover:translate-y-[-2px] hover:shadow-xl hover:shadow-primary/30">
+                                    Konsultasi Gratis
+                                </button>
+<button class="rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-8 py-4 text-base font-bold transition-all hover:bg-slate-50 dark:hover:bg-slate-800">
+                                    Lihat Portfolio
+                                </button>
+</div>
+</div>
+<div class="relative">
+<div class="aspect-[4/3] w-full rounded-3xl bg-primary/5 p-4">
+ <img src="Aini.jpeg" alt="background-image">
+</div>
+<div class="absolute -bottom-6 -left-6 hidden rounded-2xl border border-slate-100 bg-white p-6 shadow-xl dark:border-slate-800 dark:bg-slate-900 md:block">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
+<span class="material-symbols-outlined">trending_up</span>
+</div>
+<div>
+<p class="text-sm font-bold">Peningkatan Efisiensi</p>
+<p class="text-xs text-slate-500">Rata-rata 45% untuk klien kami</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 lg:py-32 bg-white dark:bg-slate-900/50" id="tentang">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid gap-16 lg:grid-cols-2">
+<div class="space-y-6">
+<h2 class="text-3xl font-extrabold tracking-tight lg:text-4xl">Membangun Masa Depan Tanpa Batas</h2>
+<p class="text-lg leading-relaxed text-slate-600 dark:text-slate-400">
+                                Kami adalah mitra strategis dalam perjalanan digital Anda, menghadirkan visi dan misi untuk memberdayakan bisnis melalui teknologi mutakhir yang dirancang khusus untuk kebutuhan unik Anda.
+                            </p>
+<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+<div class="flex gap-4 rounded-xl border border-slate-100 bg-background-light p-6 dark:border-slate-800 dark:bg-background-dark">
+<div class="text-primary"><span class="material-symbols-outlined text-3xl">visibility</span></div>
+<div>
+<h3 class="font-bold">Visi Kami</h3>
+<p class="text-sm text-slate-500">Menjadi pemimpin global dalam inovasi teknologi digital yang berkelanjutan.</p>
+</div>
+</div>
+<div class="flex gap-4 rounded-xl border border-slate-100 bg-background-light p-6 dark:border-slate-800 dark:bg-background-dark">
+<div class="text-primary"><span class="material-symbols-outlined text-3xl">target</span></div>
+<div>
+<h3 class="font-bold">Misi Kami</h3>
+<p class="text-sm text-slate-500">Memberikan solusi IT yang efisien, aman, dan memberikan dampak bisnis nyata.</p>
+</div>
+</div>
+<div class="flex gap-4 rounded-xl border border-slate-100 bg-background-light p-6 dark:border-slate-800 dark:bg-background-dark sm:col-span-2 lg:col-span-1 xl:col-span-2">
+<div class="text-primary"><span class="material-symbols-outlined text-3xl">history</span></div>
+<div>
+<h3 class="font-bold">Sejarah Kami</h3>
+<p class="text-sm text-slate-500">Berawal dari semangat inovasi, kami telah berpengalaman lebih dari satu dekade dalam mentransformasi berbagai industri melalui teknologi.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-4">
+<div class="space-y-4 pt-12">
+<div class="aspect-[3/4] rounded-2xl bg-cover bg-center" data-alt="Collaborative office environment showing team working" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDMJ_-57Y-ctlxq_ov1A1rk0q8qvUoHePlsVRtCKxaS3JS8aupXZrzz9JKgoZbqkBucedrR6s8kr6REOuCIAEhRVtqolAmKVgiGihZVdCB83gVcA7ruoEHK8g74x9c2noJjcwq3BpkPcunUU99T3kJH1bMWD4SxW1NA3skIRsDLe3SpGybjtJwRZGH6OCbhlrlcQTs89RElc4Ar7xXXOneMzx6aJwg5XHjwHM9slF3GeBhiOpkbmz7c8FiD50l3vTklBZiosoWHlu92');"></div>
+<div class="aspect-square rounded-2xl bg-primary">
+<div class="flex h-full flex-col items-center justify-center text-white p-6 text-center">
+<span class="text-4xl font-black">10+</span>
+<span class="text-sm font-medium">Tahun Pengalaman</span>
+</div>
+</div>
+</div>
+<div class="space-y-4">
+<div class="aspect-square rounded-2xl bg-slate-200 dark:bg-slate-800">
+<div class="flex h-full flex-col items-center justify-center p-6 text-center">
+<span class="text-4xl font-black text-primary">500+</span>
+<span class="text-sm font-medium">Proyek Selesai</span>
+</div>
+</div>
+<div class="aspect-[3/4] rounded-2xl bg-cover bg-center" data-alt="Modern workspace with high tech equipment" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCTuyp3T5lWVmaMO0uCCOF7hZUIesKOPi1SWJkPDQU5WNy8BWs0kge7tS21Nz4aT2oQ3tDbEQGnLMz-8vvN1X3yS1J5Huznhj-Ex_yC2gi9Q3Vgi5cLEqF_lpLOYk7RM6e5D3OI4qV_c6UjBG_whjcBR31mogXWQfH_gM6qtwOLbQjFA3QLKNyYFvjsbj7d91ie9LsYRvBgqpxos73q8R9DS2rwqhvNO3-0dhZoboUABaeQdyWqffysrRBc4OoKAiQgwNRONSVHvT1a');"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 lg:py-32" id="layanan">
+<div class="mx-auto max-w-7xl px-6">
+<div class="mb-16 text-center">
+<h2 class="text-3xl font-extrabold tracking-tight lg:text-4xl">Layanan Profesional Kami</h2>
+<p class="mx-auto mt-4 max-w-2xl text-slate-600 dark:text-slate-400">
+                            Kami menghadirkan berbagai solusi teknologi komprehensif untuk membantu bisnis Anda tumbuh dan berkembang di era digital.
+                        </p>
+</div>
+<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+<div class="group relative flex flex-col gap-6 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-all hover:shadow-xl dark:border-slate-800 dark:bg-slate-900">
+<div class="aspect-video overflow-hidden rounded-xl">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Business analytics on digital screens" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDZZsdKxxWuGPWxfRkHg3dVbunMeXLgTOKt4fRlmtIZ6RDvbMlAOTEYK32M60tPajaq01SkxYYiCv7R0E3XiCXe-TOxXFz6hC3BSw1MGN9s7XTubVO8-7-hyDm9yHP5IjpNnLShkycvyUcU3wNrxCg8aQ_K2o9RYq2YTz3PkOsAuzUeZXZT5FK2lh4J4SrEDR0FPDS4FC-JjVi1biwjotnIusrsBTuupslAFVvBILWuuUcwRaCm8ddFUC4nhQXO4gaGiClUHHpC-SU_');"></div>
+</div>
+<div class="space-y-2">
+<h3 class="text-xl font-bold">IT Consulting</h3>
+<p class="text-sm text-slate-500">Strategi teknologi yang tepat sasaran untuk efisiensi operasional maksimal.</p>
+</div>
+</div>
+<div class="group relative flex flex-col gap-6 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-all hover:shadow-xl dark:border-slate-800 dark:bg-slate-900">
+<div class="aspect-video overflow-hidden rounded-xl">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Clean web development code on screen" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDSJq1SL6mxIgekBxP-PmDkAHIegAYUWOswE0w8OyVfXJIr0DtL5yaye3ZIwY4T5DekhP8qfLSq9gzCJONGfsGR0K9FPqk90LKo4KTWAz8FD2tgu6vnLWCd3aHDRWXqGsLZN60hK2k_TCoX3R_afBFPe0OS0ToInpKpyPqSV6JSeLhXxBx7DYfNkneVql-TcuGbNbno--PK5dcmXL8X9bmiy9lCbKQoixSsysqJuvKZsWGxeho51j-5f1oJQO_kQL7nz_UXmydXrXb1');"></div>
+</div>
+<div class="space-y-2">
+<h3 class="text-xl font-bold">Web Development</h3>
+<p class="text-sm text-slate-500">Situs web performa tinggi, responsif, dan ramah SEO untuk identitas online Anda.</p>
+</div>
+</div>
+<div class="group relative flex flex-col gap-6 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-all hover:shadow-xl dark:border-slate-800 dark:bg-slate-900">
+<div class="aspect-video overflow-hidden rounded-xl">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Mobile application interface design" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBGKUhn59x8HzSprgPJZ8qQXVc6bcUz-WedpAabHioknv7d8slMAv79quJQO3mJqszhDE2RmmuNMbDk9DJEBUnkp0HB2wOb5DXzURqKXUoBUbsq59sHYRe7vyj8clfIuevjE-zy1_9ul4DYSdyby6GvFg1xb8uB8aqxYtN3Ye4byEkUSs_1AWaUtXQSQMYAD5de3jFaCKofTXaiSKUMWrgQyO06-GCXuQOhhBmmJo2vmKnL4dBNuZuhcdkhn7wNIj0_UEXWf0x6Pi1n');"></div>
+</div>
+<div class="space-y-2">
+<h3 class="text-xl font-bold">Mobile Solutions</h3>
+<p class="text-sm text-slate-500">Aplikasi mobile kustom untuk iOS &amp; Android dengan pengalaman pengguna yang luar biasa.</p>
+</div>
+</div>
+<div class="group relative flex flex-col gap-6 rounded-2xl border border-slate-100 bg-white p-6 shadow-sm transition-all hover:shadow-xl dark:border-slate-800 dark:bg-slate-900">
+<div class="aspect-video overflow-hidden rounded-xl">
+<div class="h-full w-full bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Data center and cloud network visualization" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAKkGdIvd-Lu0mVtUvh0RScUFQOsRoQQQUMz2H4oh1oYLqjSL-sD6hk7cIWvlwHIXYrLXEdGWlmIJrMV_QWTO_5mus-XH2VpZpHu9_H1fwkeJGdgoKcWVAEfJXCkrOy_nm9gdsiE2IreSvxxKVecsZHTPiPfFP6BLOBBEwvO9Cct0ZSbaNvbw1ZWoXFGU3TLfRZruqAgjlPgM7qZlsyptUblso0akVNJk8lvsnaNOdvFRBSpFOmMKXKTJQIf7xvAoa7T0EuGbywSW_8');"></div>
+</div>
+<div class="space-y-2">
+<h3 class="text-xl font-bold">Cloud Services</h3>
+<p class="text-sm text-slate-500">Infrastruktur cloud yang aman, skalabel, dan handal untuk mendukung pertumbuhan data.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 lg:py-32 bg-white dark:bg-slate-900/50" id="kontak">
+<div class="mx-auto max-w-7xl px-6">
+<div class="grid gap-16 lg:grid-cols-2">
+<div class="flex flex-col justify-center gap-8">
+<div class="space-y-4">
+<h2 class="text-3xl font-extrabold tracking-tight lg:text-4xl">Hubungi Kami</h2>
+<p class="text-lg text-slate-600 dark:text-slate-400">Siap untuk memulai transformasi digital Anda? Tim ahli kami siap membantu mewujudkan visi Anda menjadi kenyataan.</p>
+</div>
+<div class="space-y-6">
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">mail</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Email Kami</p>
+<p class="font-semibold">Ainiworks@Gmail.com</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Telepon</p>
+<p class="font-semibold">+62 851 9188 6607</p>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex h-12 w-12 items-center justify-center rounded-xl bg-primary text-white shadow-lg shadow-primary/20">
+<span class="material-symbols-outlined">location_on</span>
+</div>
+<div>
+<p class="text-xs font-bold uppercase tracking-wider text-slate-500">Kantor Pusat</p>
+<p class="font-semibold">simp.telo .kec,bangkinang sebrang.kab,kampar.pro,riau</p>
+</div>
+</div>
+</div>
+</div>
+<div class="rounded-3xl border border-slate-100 bg-white p-8 shadow-2xl dark:border-slate-800 dark:bg-background-dark/50">
+<form action="#" class="space-y-6" onsubmit="return false;">
+<div class="grid gap-6 sm:grid-cols-2">
+<div class="space-y-2">
+<label class="text-sm font-bold">Nama Lengkap</label>
+<input class="w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-primary focus:ring-primary dark:border-slate-800 dark:bg-slate-900" placeholder="John Doe" type="text"/>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold">Alamat Email</label>
+<input class="w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-primary focus:ring-primary dark:border-slate-800 dark:bg-slate-900" placeholder="john@example.com" type="email"/>
+</div>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold">Layanan yang Diminati</label>
+<select class="w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-primary focus:ring-primary dark:border-slate-800 dark:bg-slate-900">
+<option>IT Consulting</option>
+<option>Web Development</option>
+<option>Mobile Solutions</option>
+<option>Cloud Services</option>
+</select>
+</div>
+<div class="space-y-2">
+<label class="text-sm font-bold">Pesan Anda</label>
+<textarea class="w-full rounded-xl border-slate-200 bg-slate-50 px-4 py-3 text-sm focus:border-primary focus:ring-primary dark:border-slate-800 dark:bg-slate-900" placeholder="Ceritakan kebutuhan bisnis Anda..." rows="4"></textarea>
+</div>
+<button class="w-full rounded-xl bg-primary py-4 text-base font-bold text-white transition-all hover:bg-primary/90" type="submit">
+                                    Kirim Pesan
+                                </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="border-t border-slate-200 dark:border-slate-800 py-12">
+<div class="mx-auto max-w-7xl px-6">
+<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
+<div class="flex items-center gap-2">
+<div class="text-primary">
+<svg class="size-6" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path d="M42.1739 20.1739L27.8261 5.82609C29.1366 7.13663 28.3989 10.1876 26.2002 13.7654C24.8538 15.9564 22.9595 18.3449 20.6522 20.6522C18.3449 22.9595 15.9564 24.8538 13.7654 26.2002C10.1876 28.3989 7.13663 29.1366 5.82609 27.8261L20.1739 42.1739C21.4845 43.4845 24.5355 42.7467 28.1133 40.548C30.3042 39.2016 32.6927 37.3073 35 35C37.3073 32.6927 39.2016 30.3042 40.548 28.1133C42.7467 24.5355 43.4845 21.4845 42.1739 20.1739Z" fill="currentColor"></path>
+</svg>
+</div>
+<span class="text-lg font-bold">AiniWorks</span>
+</div>
+<div class="flex gap-6 text-sm text-slate-500">
+<a class="hover:text-primary transition-colors" href="#">Kebijakan Privasi</a>
+<a class="hover:text-primary transition-colors" href="#">Syarat &amp; Ketentuan</a>
+</div>
+<p class="text-sm text-slate-500">© 2024 AiniWorks. Seluruh hak cipta dilindungi.</p>
+</div>
+</div>
+</footer>
+</div>
+</body></html>
